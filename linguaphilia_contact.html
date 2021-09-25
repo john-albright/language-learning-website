@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        Linguaphilia About Page
+        Author: John Albright
+        Date Started: December 9, 2020
+
+        Filename: linguaphilia_contact.html
+    -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <meta name="description" content= "Linguaphilia is a free website 
+        dedicated to helping people learn languages with grammar
+        explanations, vocabulary banks, blog posts, and a vibrant online 
+        community." />
+    <meta name="keywords" content="language, education, learning, grammar, 
+        vocabulary" />
+    <meta name="author" content="John Albright" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Linguaphilia</title>
+    <link href="linguaphilia_styles.css" rel="stylesheet" media="screen" />
+    <link href="linguaphilia_layout.css" rel="stylesheet" media="all" />
+    <link href="linguaphilia_print.css" rel="stylesheet" media="print" />
+</head>
+<body>
+    <div class="topOfPage">
+        <header>
+            <div class="bannerImage">
+                <a href="index.html"><img class="banner" src="shanghai_skyline_cloudy_crop.jpg" alt="linguaphilia" /></a>
+                <div class="centered">
+                    <a href="index.html">Linguaphilia</a>
+                </div>
+            </div>
+            <div class = "navbar">
+                <nav class="horizontalNavigation">
+                    <ul>
+                        <li><a href="linguaphilia_about.html">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="linguaphilia_language_selection.html">Languages</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="linguaphilia_contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div class="fullPage" id="thumbnail">
+        <article class="PageContent">
+            <div class="PageText">
+                <h1>Contact</h1>
+                <p>If you would like to contact us personally about Linguaphilia, we at Linguaphilia can be reached easily by email: 
+                    <a class="pageLinks" href="mailto:main@lingaphilia.com">main@linguaphilia.com</a>. We are open to any and all feedback
+                    and are working tirelessly to provide high-quality language learning materials. As we are not a corporation, our
+                    team is small. If you are willing to volunteer to help us create content, you can also head over to the Jobs
+                    section. 
+                </p>
+                <p>
+                    Alternatively, if you would like to provide us with structured feedback, we have a short form that you can fill
+                    out if you would like. 
+                </p>
+                <form id="feedback" action="http://www.linguaphilia.com/survey" method="post">
+                    <fieldset id="userInfo">
+                        <legend>User Info</legend>
+                        <div class="formRow">
+                            <label for="name">Name*</label>
+                            <input name="userName" id="name" type="text" placeholder="first and last name (if desired)" />
+                        </div> 
+                        <div class="formRow">
+                            <label for="city">City</label>
+                            <input name="userCity" id="city" type="text" />
+                        </div>
+                        <div class="formRow">
+                            <label for="state">State/Province</label>
+                            <input name="userState" id="state" type="text" />
+                        </div>
+                        <div class="formRow">
+                            <label for="country">Country</label>
+                            <input name="userCountry" id="country" type="text" />
+                        </div>
+                        <div class="formRow">
+                            <label for="mail">Email*</label>
+                            <input name="userEmail" id="mail" type="email" />
+                        </div>
+                        <div style="text-align: center">
+                            <label for="mailML">If you'd like to receive our monthly newsletter, check this box!</label>
+                            <input name="mailMe" id="mailML" value="yes" type="checkbox" />
+                        </div>
+                    </fieldset>
+                    <fieldset id="expInfo">
+                        <legend>User Feedback</legend>
+                        <div class="formRow">
+                            <label>Have you used our website for language?</label>
+                            <fieldset class="optGroup">
+                                <label for="uYes">Yes</label>
+                                <input name="uLanguage" id="uYes" value="yes" type="radio" />
+                                <label for="uNo">No</label>
+                                <input name="uLanguage" id="uNo" value="no" type="radio" />
+                            </fieldset>
+                        </div>
+                        <div class="formRow">
+                            <label for="language">Which language(s) have you used? <br />(Please select all that apply.)</label>
+                            <select name="languageUsed" id="language" size="9" multiple 
+                                style="font-size: 16px; font-family: Optima, Verdana, sans-serif;">
+                                <option value="english">English</option>
+                                <option value="french">French</option>
+                                <option value="galician">Galician</option>
+                                <option value="italian">Italian</option>
+                                <option value="japanese">Japanese</option>
+                                <option value="korean">Korean</option>
+                                <option value="latin">Latin</option>
+                                <option value="portuguese">Portuguese</option>
+                                <option value="spanish">Spanish</option>
+                            </select>
+                        </div>
+                        <div class="formRow">
+                            <label for="rangeBox">Rate the quality of the language content you accessed.<br />
+                            (0 = poor; 10 = excellent)</label>
+                            0
+                            <input name="langQuality" id="rangeBox" type="range" value="5" step="1" min="0" max="10" />
+                            10
+                        </div>
+                        <div class="formRow">
+                            <label for="rangeBox2">Rate the quality of the design of the website.<br />
+                            (0 = poor; 10 = excellent)</label>
+                            0
+                            <input name="designQuality" id="rangeBox2" type="range" value="5" step="1" min="0" max="10" />
+                            10
+                        </div>
+                        <label for="commBox">Leave us something to read! We appreciate all feedback, and it regularly
+                            informs the updates we make to this website.
+                        </label>
+                        <textarea name="userExp" id="commBox"></textarea>
+                    </fieldset>
+                    <div id="buttons">
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Cancel" />
+                    </div>
+                </form>
+            </div>
+        </article>
+        <footer>
+            &copy;Linguaphilia
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        Linguaphilia Language Map Page
+        Author: John Albright
+        Date Started: November 2, 2020
+
+        Filename: linguaphilia_language_selection.html
+    -->
+	<meta charset="UTF-8" />
+    <meta name="description" content= "Linguaphilia is a free website 
+        dedicated to helping people learn languages with grammar
+        explanations, vocabulary banks, blog posts, and a vibrant online 
+        community." />
+    <meta name="keywords" content="language, education, learning, grammar, 
+        vocabulary" />
+    <meta name="author" content="John Albright" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Language Selection</title>
+    <link href="linguaphilia_styles.css" rel="stylesheet" media="screen" />
+    <link href="linguaphilia_layout.css" rel="stylesheet" media="all" />
+    <link href="linguaphilia_print.css" rel="stylesheet" media="print" />
+    <style>
+        /* Responsive Styles for Image Map */
+        @media only screen and (min-width: 950px) {
+            img.resize {
+            max-width: 770px;
+            display: block;
+            margin-left: -25px;
+            }
+    
+            nav.responsiveList {
+                display: none;
+            }
+        }
+        
+        @media only screen and (max-width: 951px) {
+            img.resize {
+                display: none;
+            }
+    
+            nav.responsiveList a {
+                display: block;
+                text-align: center;
+            }
+    
+            nav.responsiveList {
+                display: block;
+                float: none;
+                padding-top: 1px;
+                padding-bottom: 1px;
+                margin-left: -45px;
+            }
+    
+            nav.responsiveList > ul {
+                list-style-type: none;
+                line-height: 4.0;
+            }
+    
+            nav.responsiveList > ul > li > a:link, nav.responsiveList > ul > li > a:visited {
+                text-decoration: none;
+                text-transform: uppercase;
+                font-family: Akzidenz, Optima, Verdana, sans-serif;
+                letter-spacing: 3px;
+                font-weight: bold;
+                font-size: 30px;
+                color: darkblue;
+                
+            }
+    
+            nav.responsiveList > ul > li > a:hover, nav.responsiveList > ul> li > a:active {
+                color: lightseagreen;
+                text-shadow: rgb(103, 185, 212) 1px 1px 5px;
+                background: rgba(16, 20, 128, 0.3);
+            }
+    
+        }
+    </style>
+</head>
+<body>
+    <div class="topOfPage">
+        <header>
+            <div class="bannerImage">
+                <a href="index.html"><img class="banner" src="shanghai_skyline_cloudy_crop.jpg" alt="linguaphilia" /></a>
+                <div class="centered">
+                    <a href="index.html">Linguaphilia</a>
+                </div>
+            </div>
+            <div class = "navbar">
+                <nav class="horizontalNavigation">
+                    <ul>
+                        <li><a href="linguaphilia_about.html">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="linguaphilia_language_selection.html">Languages</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="linguaphilia_contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div class="fullPage" id="thumbnail">
+        <article class="pageContent">
+            <h1>Language Selector</h1>
+            <div>
+                <figure>
+                    <img class="resize" src="language_circle.png" alt="language selector" usemap="#language_map" />
+                </figure>
+                <!-- The image has been resized from 927x987 to 770x820 in the embedded styles sheet above -->
+                <map name="language_map">
+                    <area shape="rect" coords="320,50,450,138" href="spanish.html" alt="Spanish" />
+                    <area shape="rect" coords="526,122,664,214" href="english.html" alt="English" />
+                    <area shape="rect" coords="638,138,770,404" href="portuguese.html" alt="Portuguese" />
+                    <area shape="rect" coords="600,538,738,626" href="latin.html" alt="Latin" />
+                    <area shape="rect" coords="430,684,566,768" href="italian.html" alt="Italian" />
+                    <area shape="rect" coords="206,682,344,770" href="japanese.html" alt="Japanese" />
+                    <area shape="rect" coords="26,540,174,626" href="galician.html" alt="Galician" />
+                    <area shape="rect" coords="0,318,138,406" href="french.html" alt="French" />
+                    <area shape="rect" coords="110,126,248,214" href="korean.html" alt="Korean" />
+                </map>
+            </div>
+            <nav class="responsiveList">
+                <ul>
+                    <li><a href="spanish.html">Spanish</a></li>
+                    <li><a href="english.html">English</a></li>
+                    <li><a href="protuguese.html">Portuguese</a></li>
+                    <li><a href="latin.html">Latin</a></li>
+                    <li><a href="italian.html">Italian</a></li>
+                    <li><a href="japanese.html">Japanese</a></li>
+                    <li><a href="galician.html">Galician</a></li>
+                    <li><a href="french.html">French</a></li>
+                    <li><a href="korean.html">Korean</a></li>
+                </ul>
+            </nav>
+            <div class="pageText">
+                <p>We are currently developing courses for these languages. While we will be focusing on these in particular, 
+                    we will be working to expand the catalogue as much as we can. Currently, only the <em>Spanish</em> and <em>Japanese</em> 
+                    links are functional as those courses have been started. 
+                </p>
+            </div>
+        </article>
+        <footer>
+            &copy;Linguaphilia
+        </footer>
+    </div>
+</body>
+</html>
