@@ -52,6 +52,7 @@ a.pageLinks:visited {
 a.pageLinks:hover, a.pageLinks:active {
     text-decoration: none;
     background: rgba(16, 20, 128, 0.3);
+    transition: 0.2s ease-in;
 }
 
 /* Header Styles */
@@ -96,12 +97,14 @@ nav.horizontalNavigation > ul > li > a:link, nav.horizontalNavigation > ul > li 
     text-transform: uppercase;
     font-family: Optima, Verdana, sans-serif;
     color: white;
+    transition: 0.3s ease-out;
 }
 
 nav.horizontalNavigation > ul > li > a:hover, nav.horizontalNavigation > ul> li > a:active {
     color: lightseagreen;
     text-shadow: rgb(103, 185, 212) 1px 1px 5px;
     background: rgba(32, 63, 39, 0.5);
+    transition: 0.3s ease-in;
 }
 
 /* Figure Styles */
