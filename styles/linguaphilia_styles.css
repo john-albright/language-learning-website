@@ -24,7 +24,7 @@ Filename: linguaphilia_styles.css
 /* HTML and Body Styles */
 
 html {
-    background-image: url(elegant_background.jpg);
+    background-image: url(../images/elegant_background.jpg);
     background-repeat: round;
     font-family: Optima, Verdana, sans-serif;
 }
