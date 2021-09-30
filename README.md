@@ -4,4 +4,4 @@ This language learning application was created to fulfill the final project for 
 
 The website was created with CSS and HTML. Each page is responsive; a table is broken into two for mobile view on the spanish.html page, and a "language wheel" is converted into a column of language blocks for mobile view on the linguaphilia_language_selection.html page. The website has a lot of color and overall is on the darker side. With this in mind, some time was put into making each page of the website easily printable.
 
-A live version of the website can be found at the [correspondent GitHub subdirectory](john-albright.github.io/language-learning-website).
+A live version of the website can be found at the [corresponding GitHub subdirectory](john-albright.github.io/language-learning-website).
